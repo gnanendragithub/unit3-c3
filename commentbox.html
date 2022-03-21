@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    
+</body>
+<div>
+    <section id="app">
+        <div class="container">
+            <div class="row">
+                <div class="colomn">
+                    <div class="comment">
+                        <p v-fo="items in the item" v-text="item"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="coloumn">
+
+                    <textarea type="text" class="input" placeholder="Write a comment" v-mode="newItem" @keyup.enter="addItem()"></textarea>
+                    <button v-on:click ="addItem()" class="primaryContained float-right" type="Submit">Add comment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</html>
